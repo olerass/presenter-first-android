@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PFGeoQuiz</string>
+    <string name="question_text">Constantinople is the largest city in Turkey</string>
+    <string name="true_str">True</string>
+    <string name="false_str">False</string>
+    <string name="correct_msg">Correct!</string>
+    <string name="incorrect_msg">Incorrect!</string>
+</resources>

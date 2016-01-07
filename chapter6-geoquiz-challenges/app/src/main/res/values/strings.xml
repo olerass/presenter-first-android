@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PFGeoQuiz</string>
+    <string name="true_str">True</string>
+    <string name="false_str">False</string>
+    <string name="correct_msg">Correct!</string>
+    <string name="incorrect_msg">Incorrect!</string>
+    <string name="next_button">Next</string>
+    <string name="question_oceans">The Pacific ocean is larger than the Atlantic Ocean.</string>
+    <string name="question_mideast">The Suez Canal connects the Red Sea and the Indian Ocean.</string>
+    <string name="question_africa">The Amazon source of the Nile River is in Egypt.</string>
+    <string name="question_americas">The Amazon River is the longest river in the Americas.</string>
+    <string name="question_asia">Lake Baikal is the world\'s oldest and deepest freshwater lake.</string>
+    <string name="warning_text">Are you sure you want to do this?</string>
+    <string name="show_answer_button">Show Answer</string>
+    <string name="cheat_button">Cheat!</string>
+    <string name="judgment_toast">Cheating is wrong.</string>
+    <string name="title_activity_cheat">Cheat</string>
+    <string name="api_level">API level %d</string>
+</resources>
