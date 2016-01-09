@@ -10,7 +10,7 @@ All examples are targeting API level 22 (Lollipop 5.1) with a minSdk of 16 (4.1 
 ## Get Started
 The repository is organized according to the progression of the book with a single directory for each separate project. Each directory contains (will contain) a README detailing the Presenter First architecture of the project and a discussion of the solution.  
 
-To build and run the projects you need both JDK 7 and 8 installed. This is a requirement of [Retrolambda][retrolambda] which is used to compile Java 8 lambdas to Android compatible Java 7 bytecode (see [Third-Party Libraries](#third-party-libs)). If you use Java 8 to compile the code you must set the `JAVA7_HOME` environment variable and point it to the JDK7 location. If you use Java 7 to compile set the `JAVA8_HOME` variable and point it to JDK8. 
+To build and run the projects you need both JDK 7 and 8 installed. This is a requirement of [Retrolambda][retrolambda] which is used to compile Java 8 lambdas to Android compatible Java 7 bytecode (see [Third-Party Libraries](#third-party-libraries)). If you use Java 8 to compile the code you must set the `JAVA7_HOME` environment variable and point it to the JDK7 location. If you use Java 7 to compile set the `JAVA8_HOME` variable and point it to JDK8. 
 
 Android Studio has been used for developing with project sdk set to JKD8 and `JAVA7_HOME` pointing to the local JDK7.
 
@@ -29,7 +29,7 @@ When given the choice the pedagogical approach has been chosen over elegancy. A 
 
 It should be noted that the solutions are implemented upon my personal interprertation of the finer details of the Presenter First pattern. It is far from perfect, especially since I hadn't written a single line of Android code before reading the book. **Comments, suggestions and pull-requests are more than welcome. So if you have any ideas don't hesitate to share!**
 
-### Third-Party Libraries (#third-party-libs)
+### Third-Party Libraries
 While there are many great libraries for Android development which no-doubt should be used in real-life projects, I have chosen not to follow that path here. I want to keep the code as close as possible to the book to avoid confusion. Furthermore, keeping the code close to vanilla Android reaches the broadest audience.
 
 With that said, due to nature of Presenter First a lot of event-based communication is neccesary both within and outside the MVP triads. In Java 7 and below this means creating dozens of anonymous inner classes and passing them around which quickly becomes a mess. [Retrolambda][retrolambda] is employed to allow the usage of Java 8 lambas in Java 7 and below. This cleans up the event code considerably.
