@@ -15,7 +15,7 @@ To build and run the projects you need both JDK 7 and 8 installed. This is a req
 Android Studio has been used for developing with project sdk set to JKD8 and `JAVA7_HOME` pointing to the local JDK7.
 
 ## Status
-Currently chapter 1 to 7 are fully implemented using Presenter First. Documentation and architecture diagrams are still missing but will follow.
+Currently chapter 1 to 8 are fully implemented using Presenter First. Documentation and architecture diagrams are still missing but will follow.
 
 I will be comitting more projects as I get further into the book. Since I am literally doing the projects as I am reading I constantly learn new stuff and smarter ways to do existing things. Therefore, I will most likely make changes to existing projects just as often as I commit new ones. That's continuous improvement for you!
 
