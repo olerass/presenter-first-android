@@ -20,6 +20,7 @@ public class FragmentCrimeView implements CrimeView {
     public FragmentCrimeView(LayoutInflater inflater, ViewGroup container) {
         view = inflater.inflate(R.layout.fragment_crime, container, false);
 
+        initializeTitleField();
         titleField = (EditText)view.findViewById(R.id.crime_title);
         titleField.addTextChangedListener(new TextWatcher() {
             @Override
@@ -46,5 +47,25 @@ public class FragmentCrimeView implements CrimeView {
     @Override
     public void whenTitleChanged(DataEventListener<String> listener) {
         titleChanged.addListener(listener);
+    }
+
+    private void initializeTitleField() {
+        titleField = (EditText)view.findViewById(R.id.crime_title);
+        titleField.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                titleChanged.dispatch(s.toString());
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
     }
 }

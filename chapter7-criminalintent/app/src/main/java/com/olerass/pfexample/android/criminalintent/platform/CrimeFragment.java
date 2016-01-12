@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.olerass.pfexample.android.criminalintent.domain.crime.Crime;
 import com.olerass.pfexample.android.criminalintent.domain.crime.CrimeModel;
 import com.olerass.pfexample.android.criminalintent.domain.crime.CrimePresenter;
 import com.olerass.pfexample.android.criminalintent.domain.crime.StandardCrimeModel;
@@ -20,7 +21,7 @@ public class CrimeFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        CrimeModel model = new StandardCrimeModel();
+        CrimeModel model = new StandardCrimeModel(new Crime());
         FragmentCrimeView fragment = new FragmentCrimeView(inflater, container);
         new CrimePresenter(fragment, model);
 
