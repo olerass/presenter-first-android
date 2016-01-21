@@ -7,12 +7,18 @@ All examples are targeting API level 22 (Lollipop 5.1) with a minSdk of 16 (4.1 
 [pf]: https://atomicobject.com/resources/presenter-first
 [book]: https://www.bignerdranch.com/we-write/android-programming/
 
+
 ## Get Started
-The repository is organized according to the progression of the book with a single directory for each separate project. Each directory contains (will contain) a README detailing the Presenter First architecture of the project and a discussion of the solution.  
+The repository is organized according to the progression of the book with a single directory for each separate project. 
 
-To build and run the projects you need both JDK 7 and 8 installed. This is a requirement of [Retrolambda][retrolambda] which is used to compile Java 8 lambdas to Android compatible Java 7 bytecode (see [Third-Party Libraries](#third-party-libraries)). If you use Java 8 to compile the code you must set the `JAVA7_HOME` environment variable and point it to the JDK7 location. If you use Java 7 to compile set the `JAVA8_HOME` variable and point it to JDK8. 
+To build and run the projects you need both JDK 7 and 8 installed. This is a requirement of [Retrolambda][retrolambda] which is used to compile Java 8 lambdas to Android compatible Java 7 bytecode (see [Third-Party Libraries](#third-party-libraries)). If you use Java 8 to compile the code you must set the `JAVA7_HOME` environment variable and point it to the JDK7 location. If you use Java 7 to compile set the `JAVA8_HOME` variable and point it to JDK8.
 
-Android Studio has been used for developing with project sdk set to JKD8 and `JAVA7_HOME` pointing to the local JDK7.
+## Projects Overview
+
+| Chapter  | Description   | Screenshots |
+| -------- | ------------- | ----------- |
+| 1        | Single-activity app that displays a question. The user may answer true or false and will be notified whether the answer was correct or not. | ![Screenshots](chapter1-geoquiz/screenshots.png?raw=true) |
+
 
 ## About
 The Android architecture leaves a lot to be desired with regards to testability and separation of concerns. Presenter First is a variant of the Model-View-Presenter (MVP) pattern designed for maximum testability and in particular TDD. While originally intended for GUI-heavy desktop applications it can also be applied to apps. Doing so provides a clear and consistent way to develop any app guided by tests  from a simple single-activity calculator to enterprise apps with dozens of activities, database access, and third-party communications.
