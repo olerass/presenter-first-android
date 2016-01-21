@@ -1,6 +1,6 @@
 # Presenter First (MVP) Android Examples
 
-Examples of how to implement the [Presenter First][pf] pattern in Android based on the code from the book [Android Programming: The Big Nerd Ranch Guide (2nd Edition)][book].
+Examples of how to implement the [Presenter First][pf] pattern in Android based on the code from the book [Android Programming: The Big Nerd Ranch Guide (2nd Edition)][book]. Projects will be continually committed as I get further into the book.
 
 All examples are targeting API level 22 (Lollipop 5.1) with a minSdk of 16 (4.1 Jellybean).
 
@@ -13,11 +13,6 @@ The repository is organized according to the progression of the book with a sing
 To build and run the projects you need both JDK 7 and 8 installed. This is a requirement of [Retrolambda][retrolambda] which is used to compile Java 8 lambdas to Android compatible Java 7 bytecode (see [Third-Party Libraries](#third-party-libraries)). If you use Java 8 to compile the code you must set the `JAVA7_HOME` environment variable and point it to the JDK7 location. If you use Java 7 to compile set the `JAVA8_HOME` variable and point it to JDK8. 
 
 Android Studio has been used for developing with project sdk set to JKD8 and `JAVA7_HOME` pointing to the local JDK7.
-
-## Status
-Currently chapter 1 to 8 are fully implemented using Presenter First. Documentation and architecture diagrams are still missing but will follow.
-
-I will be comitting more projects as I get further into the book. Since I am literally doing the projects as I am reading I constantly learn new stuff and smarter ways to do existing things. Therefore, I will most likely make changes to existing projects just as often as I commit new ones. That's continuous improvement for you!
 
 ## About
 The Android architecture leaves a lot to be desired with regards to testability and separation of concerns. Presenter First is a variant of the Model-View-Presenter (MVP) pattern designed for maximum testability and in particular TDD. While originally intended for GUI-heavy desktop applications it can also be applied to apps. Doing so provides a clear and consistent way to develop any app guided by tests  from a simple single-activity calculator to enterprise apps with dozens of activities, database access, and third-party communications.
