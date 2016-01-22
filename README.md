@@ -18,7 +18,9 @@ To build and run the projects you need both JDK 7 and 8 installed. This is a req
 | Chapter  | Description   | Screenshots |
 | -------- | ------------- | ----------- |
 | 1        | Single-activity app that displays a question. The user may answer true or false and will be notified whether the answer was correct or not. | ![Screenshots](chapter1-geoquiz/screenshots.png?raw=true) |
-
+| 2        | Chapter 1 app expanded with functionality for showing 5 different questions and forwards-cycling through them using a next button. | ![Screenshots](chapter2-geoquiz/screenshots.png?raw=true) |
+| 2 (Challenges) | Chapter 2 app with added functionality for cycling both back and forth between the questions. Furthermore, the navigation buttons now use images and touching the textview advances the question. | ![Screenshots](chapter2-geoquiz-challenges/screenshots.png?raw=true) |
+| 3 | Chapter 2 app expanded with functionality for saving/restoring the active question across rotations by overriding `onSaveInstanceState` . | Same as chapter 2 app. |
 
 ## About
 The Android architecture leaves a lot to be desired with regards to testability and separation of concerns. Presenter First is a variant of the Model-View-Presenter (MVP) pattern designed for maximum testability and in particular TDD. While originally intended for GUI-heavy desktop applications it can also be applied to apps. Doing so provides a clear and consistent way to develop any app guided by tests  from a simple single-activity calculator to enterprise apps with dozens of activities, database access, and third-party communications.
