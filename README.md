@@ -32,10 +32,10 @@ A more advanced app with several activities, master/detail views and fragments.
 
 | Chapter  | Description   | Screenshots |
 | -------- | ------------- | ----------- |
-| 7        | Single-activity app that allows entering a crime title (the crime view). The title is synced with a in-memory model behind the scenes. Not much UI yet, but a lot of the domain classes are created to prepare for the following chapters. | <img src="chapter7-criminalintent/screenshots.png?raw=true" width="170"/> |
-| 8        | Chapter 7 app expanded with more fields in the crime view including a date and solved status. | <img src="chapter8-criminalintent/screenshots.png?raw=true" width="170"/> |
-| 8(challenges) | Chapter 8 app with a custom crime date format using `DateFormat.format`. | <img src="chapter8-criminalintent-challenges/screenshots.png?raw=true" width="170"/> |
-| 9 | Chapter 8 app expanded with a new activity for displaying a list of crimes using a `RecyclerView`. The crime view is not connected to the list view yet. | <img src="chapter9-criminalintent/screenshots.png?raw=true" width="170"/> |
+| 7        | Single-activity app that allows entering a crime title (the crime view). The title is synced with a in-memory model behind the scenes. Not much UI yet, but a lot of the domain classes are created to prepare for the following chapters. | <img src="chapter7-criminalintent/screenshots.png?raw=true" width="50"/> |
+| 8        | Chapter 7 app expanded with more fields in the crime view including a date and solved status. | <img src="chapter8-criminalintent/screenshots.png?raw=true" width="50"/> |
+| 8(challenges) | Chapter 8 app with a custom crime date format using `DateFormat.format`. | <img src="chapter8-criminalintent-challenges/screenshots.png?raw=true" width="50"/> |
+| 9 | Chapter 8 app expanded with a new activity for displaying a list of crimes using a `RecyclerView`. The crime view is not connected to the list view yet. | <img src="chapter9-criminalintent/screenshots.png?raw=true" width="50"/> |
 
 ## About
 The Android architecture leaves a lot to be desired with regards to testability and separation of concerns. Presenter First is a variant of the Model-View-Presenter (MVP) pattern designed for maximum testability and in particular TDD. While originally intended for GUI-heavy desktop applications it can also be applied to apps. Doing so provides a clear and consistent way to develop any app guided by tests  from a simple single-activity calculator to enterprise apps with dozens of activities, database access, and third-party communications.
