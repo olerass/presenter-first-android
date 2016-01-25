@@ -19,13 +19,13 @@ A simple app that introduces the basic Android concepts like activities, the act
 
 | Chapter  | Description   | Screenshots |
 | -------- | ------------- | ----------- |
-| 1        | Single-activity app that displays a question. The user may answer true or false and will be notified whether the answer was correct or not. | <img src="chapter1-geoquiz/screenshots.png?raw=true" width="350"/> |
-| 2        | Chapter 1 app expanded with functionality for showing 5 different questions and forwards-cycling through them using a next button. | <img src="chapter2-geoquiz/screenshots.png?raw=true" width="350"/> |
-| 2(challenges) | Chapter 2 app with added functionality for cycling both back and forth between the questions. Furthermore, the navigation buttons now use images and touching the textview advances the question. | <img src="chapter2-geoquiz-challenges/screenshots.png?raw=true" width="350"/> |
+| 1        | Single-activity app that displays a question. The user may answer true or false and will be notified whether the answer was correct or not. | <img src="chapter1-geoquiz/screenshots.png?raw=true" width="100"/> |
+| 2        | Chapter 1 app expanded with functionality for showing 5 different questions and forwards-cycling through them using a next button. | <img src="chapter2-geoquiz/screenshots.png?raw=true" width="100"/> |
+| 2(challenges) | Chapter 2 app with added functionality for cycling both back and forth between the questions. Furthermore, the navigation buttons now use images and touching the textview advances the question. | <img src="chapter2-geoquiz-challenges/screenshots.png?raw=true" width="100"/> |
 | 3 | Chapter 2 app expanded with functionality for saving/restoring the active question across rotations by overriding `onSaveInstanceState` . | Same as chapter 2 app. |
-| 5 | Chapter 3 app expanded with a second activity that allows cheating on a question to reveal its answer. Intents are used to pass data between the activities. | <img src="chapter5-geoquiz/screenshots.png?raw=true" width="350"/> |
+| 5 | Chapter 3 app expanded with a second activity that allows cheating on a question to reveal its answer. Intents are used to pass data between the activities. | <img src="chapter5-geoquiz/screenshots.png?raw=true" width="100"/> |
 | 5(challenges) | Chapter 5 app with added functionality that prevents users from cheating when cheating (!). This version ensures that the cheating status is saved across rotations. Furthermore it's saved for each question so that it's not possible to cycle through the questions to reset the status. | Same as chapter 5 app. |
-| 6(challanges) | Chapter 5 app with an extra `TextView` in the cheat activity that shows the API level of the device. | <img src="chapter6-geoquiz-challenges/screenshots.png?raw=true" width="350"/> |
+| 6(challanges) | Chapter 5 app with an extra `TextView` in the cheat activity that shows the API level of the device. | <img src="chapter6-geoquiz-challenges/screenshots.png?raw=true" width="100"/> |
 
 ### CriminalIntent - Office "crime" recorder
 A more advanced app with several activities, master/detail views and fragments.
